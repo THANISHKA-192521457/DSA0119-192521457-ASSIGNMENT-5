@@ -1,0 +1,5 @@
+Early binding: a non-virtual call is selected from the static type at compile time.
+Late binding: a virtual call through Bill* is selected from the object's dynamic type.
+The vptr/vtable is a common implementation technique; the C++ standard specifies behaviour,
+not a mandatory vtable layout. A virtual destructor ensures derived then base destruction
+when deleting through a base pointer.

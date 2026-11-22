@@ -1,0 +1,9 @@
+Source: Task08_B3_Benchmark/ten_bill_correctness.cpp
+Compile exit: 0
+Run exit: 0
+STDOUT:
+Switch total: 124900
+Virtual-interface total: 124900
+Totals agree: yes
+
+STDERR:

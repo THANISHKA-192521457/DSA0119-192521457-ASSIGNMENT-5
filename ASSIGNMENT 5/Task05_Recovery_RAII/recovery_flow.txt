@@ -1,0 +1,5 @@
+Input/UI layer: catches errors and displays a safe message.
+Billing service: catches only when it can add context or log; uses throw; to rethrow.
+Application boundary: final catch(const std::exception&) and catch(...) prevent an
+unhandled exception from escaping the application boundary.
+RAII: local objects release resources automatically during stack unwinding.

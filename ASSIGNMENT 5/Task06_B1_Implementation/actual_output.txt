@@ -1,0 +1,16 @@
+OutPatient total=1700
+  SelfPay covers=1700
+  Insurance covers=1360
+  GovernmentScheme covers=1700
+InPatient total=50500
+  SelfPay covers=50500
+  Insurance covers=40000
+  GovernmentScheme covers=20000
+DayCare total=18000
+  SelfPay covers=18000
+  Insurance covers=14400
+  GovernmentScheme covers=18000
+Emergency total=4000
+  SelfPay covers=4000
+  Insurance covers=3200
+  GovernmentScheme covers=4000

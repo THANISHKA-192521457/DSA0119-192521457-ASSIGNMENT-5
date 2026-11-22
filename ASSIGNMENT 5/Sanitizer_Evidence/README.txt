@@ -1,0 +1,1 @@
+AddressSanitizer compilation succeeded for both programs. Execution in this hosted environment failed before main() with: 'ASan runtime does not come first in initial library list'. This is an environment/runtime-loader limitation, not a clean sanitizer result. Re-run the exact sanitizer command on your own computer and attach the clean report required by the assignment.

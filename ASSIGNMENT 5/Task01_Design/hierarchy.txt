@@ -1,0 +1,11 @@
+Bill (abstract)
+  data: patientId, patientName
+  pure virtual: total() const, type() const
+  virtual: print() const, destructor
+  |
+  +-- OutPatientBill: consultation + tests
+  +-- InPatientBill: days * roomRate + procedure + medicines
+  +-- DayCareBill: packagePrice
+  +-- EmergencyBill: baseCharge + hourlyCharge * hours
+
+All derived total(), type() functions override the base interface.

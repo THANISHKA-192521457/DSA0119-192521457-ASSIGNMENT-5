@@ -1,0 +1,3 @@
+Switch total: 124900
+Virtual-interface total: 124900
+Totals agree: yes

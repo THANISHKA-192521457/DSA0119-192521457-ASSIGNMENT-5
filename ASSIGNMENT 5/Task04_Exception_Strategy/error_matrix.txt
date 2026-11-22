@@ -1,0 +1,9 @@
+Error condition                  Recommended handling
+Negative charge                  InvalidCharge
+Claim exceeds policy cover       ClaimError
+Unknown government package       UnknownPackage
+Missing patient record            MissingPatientRecord
+Text instead of numeric input     std::invalid_argument from std::stod
+Allocation failure                std::bad_alloc
+Validation/parsing/allocation functions may throw. Simple accessors and destructors should
+not throw. Destructors should be noexcept so stack unwinding cannot be interrupted.

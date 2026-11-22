@@ -1,0 +1,4 @@
+Invalid percent: 1
+Return-code ms: 0.1733
+Exception ms: 6.60229
+Rejected: 10000 caught: 10000

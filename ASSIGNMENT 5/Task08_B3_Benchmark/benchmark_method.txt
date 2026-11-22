@@ -1,0 +1,5 @@
+Compile: g++ -std=c++17 -Wall -Wextra -O2 benchmark.cpp -o benchmark
+Run: ./benchmark 1000 ; ./benchmark 1000000 ; ./benchmark 10000000
+Exception experiment: ./exception_cost 0 ; ./exception_cost 1 ; ./exception_cost 50
+The included log records the 1,000,000-element run in this package environment.
+Run all requested sizes on your own computer and append your own measurements.

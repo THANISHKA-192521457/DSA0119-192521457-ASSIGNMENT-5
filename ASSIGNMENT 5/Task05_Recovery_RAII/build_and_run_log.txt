@@ -1,0 +1,7 @@
+Source: Task05_Recovery_RAII/raii_rethrow.cpp
+Compile exit: 0
+Run exit: 0
+STDOUT:
+~f ~main caught 42
+
+STDERR:

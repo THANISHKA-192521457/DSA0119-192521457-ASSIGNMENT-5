@@ -1,0 +1,7 @@
+Source: Task02_Runtime_Binding/vtable_demo.cpp
+Compile exit: 0
+Run exit: 0
+STDOUT:
+500 ~OPBill ~Bill 
+
+STDERR:

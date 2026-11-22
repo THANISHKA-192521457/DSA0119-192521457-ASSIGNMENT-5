@@ -1,0 +1,10 @@
+Source: Task07_B2_Error_Conditions/claim_complete.cpp
+Compile exit: 0
+Run exit: 0
+STDOUT:
+approved 40000
+audit: exceeds cover
+claim rejected: exceeds cover
+error: negative amount
+
+STDERR:

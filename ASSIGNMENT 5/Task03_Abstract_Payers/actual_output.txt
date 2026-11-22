@@ -1,0 +1,4 @@
+SelfPay: 1700
+Insurance: 1360
+GovernmentScheme: 1500
+CorporatePayer: 1190

@@ -1,0 +1,10 @@
+Source: Task03_Abstract_Payers/payer_demo.cpp
+Compile exit: 0
+Run exit: 0
+STDOUT:
+SelfPay: 1700
+Insurance: 1360
+GovernmentScheme: 1500
+CorporatePayer: 1190
+
+STDERR:

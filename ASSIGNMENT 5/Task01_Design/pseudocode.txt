@@ -1,0 +1,13 @@
+ALGORITHM PROCESS-DAY-BILLS
+INPUT: array Bills containing n pointers to Bill objects
+OUTPUT: grand total for the day
+
+BEGIN
+    SET dayTotal <- 0
+    FOR each billPointer IN Bills DO
+        SET billAmount <- billPointer.total()
+        DISPLAY billPointer.type(), billAmount
+        SET dayTotal <- dayTotal + billAmount
+    END FOR
+    DISPLAY dayTotal
+END

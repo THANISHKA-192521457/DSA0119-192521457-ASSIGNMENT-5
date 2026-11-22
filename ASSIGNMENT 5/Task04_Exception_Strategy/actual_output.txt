@@ -1,0 +1,3 @@
+approved 1200
+approved billing error: negative charge
+approved billing error: claim exceeds cover

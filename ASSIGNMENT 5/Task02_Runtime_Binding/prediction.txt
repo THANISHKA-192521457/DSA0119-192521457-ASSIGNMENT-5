@@ -1,0 +1,7 @@
+Expected output:
+500 ~OPBill ~Bill
+
+show() is non-virtual, but its body calls the virtual function total().
+That inner call is dynamically dispatched using the object's dynamic type (OPBill).
+Deleting through Bill* invokes the derived destructor first and then the base destructor
+because Bill has a virtual destructor.

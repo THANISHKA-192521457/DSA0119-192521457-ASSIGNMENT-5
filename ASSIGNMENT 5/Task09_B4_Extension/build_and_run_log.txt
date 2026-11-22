@@ -1,0 +1,8 @@
+Source: Task09_B4_Extension/extension.cpp
+Compile exit: 0
+Run exit: 0
+STDOUT:
+Emergency total: 1750
+Corporate coverage: 1400
+
+STDERR:

@@ -1,0 +1,13 @@
+g++ -std=c++17 -Wall -Wextra -O2 benchmark.cpp -o benchmark
+./benchmark 1000
+./benchmark 1000000
+./benchmark 10000000
+
+g++ -std=c++17 -Wall -Wextra -O2 exception_cost.cpp -o exception_cost
+./exception_cost 0
+./exception_cost 1
+./exception_cost 50
+
+The package includes captured benchmark outputs for 1,000 and 1,000,000 bills and
+exception experiments at all three invalid rates. Run the 10,000,000 case on your own
+computer and record your machine-specific result.

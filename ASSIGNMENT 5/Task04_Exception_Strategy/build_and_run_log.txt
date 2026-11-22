@@ -1,0 +1,9 @@
+Source: Task04_Exception_Strategy/exceptions_demo.cpp
+Compile exit: 0
+Run exit: 0
+STDOUT:
+approved 1200
+approved billing error: negative charge
+approved billing error: claim exceeds cover
+
+STDERR:
